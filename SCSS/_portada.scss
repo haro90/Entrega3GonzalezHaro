@@ -1,7 +1,7 @@
 /* portada*/
 
 .gallery {
-  min-height: 100vh;
+  min-height: 90vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -11,8 +11,6 @@
   height: 100%;
   object-fit: cover;
 }
-
-/* Nesting ejemplo */
 
 .gallery1 {
   grid-column: 1/3;

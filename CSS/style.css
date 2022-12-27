@@ -15,9 +15,45 @@ footer {
   text-align: center;
 }
 
+#conoce {
+  padding-bottom: 8rem;
+}
+
+#conoce2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.card {
+  padding: 1rem;
+}
+
+.logos {
+  size: 100vh;
+}
+
+.Productdesc {
+  text-align: justify;
+}
+
+h2 {
+  padding-bottom: 2rem;
+}
+
+h3 {
+  text-decoration: underline;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+iframe {
+  max-width: 100%;
+  height: 600px;
+}
+
 /* portada*/
 .gallery {
-  min-height: 100vh;
+  min-height: 90vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -28,7 +64,6 @@ footer {
   object-fit: cover;
 }
 
-/* Nesting ejemplo */
 .gallery1 {
   grid-column: 1/3;
 }
